@@ -65,17 +65,16 @@ body {
   text-align: center;
   transition: all 1s ease-in-out;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  padding: 20px 10px;
+  padding: 10px;
+  z-index: 1;
+  overflow: hidden;
 }
 
-
-
-/* .envelope .letter .content {
-  font-family: Lucida Handwriting, cursive;
-  color: #000000;
-  text-align: center;
-  font-size: 10px;
-} */
+.envelope .letter .content img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
 
 .heart {
   position: absolute;
@@ -124,4 +123,28 @@ body {
   transform: rotate(90deg);
   transition-delay: 0.4s;
 }
+
+@media (max-width: 600px) {
+
+ 
+  .header_text {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .letter {
+    transform: scale(1.1);
+  }
+
+  .envelope .letter {
+    right: 24%;
+    bottom: 8%;
+    width: 50%;
+    height: 75%;
+  }
+
+  
+}
+
 
