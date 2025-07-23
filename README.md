@@ -7,7 +7,9 @@ A sweet and interactive envelope animation that opens to reveal a surprise messa
 https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHJ5NHczM3c3azUxcHMyc2s2b2IxZmMzZ25hcm54OG56c3owb3lqYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3nDf9tTq8xCppWWqIM/giphy.gif
 
 🔗 Live Demo
-👉 
+
+👉 [Click here to view the live demo](https://priya-1526.github.io/Love-letter/)
+
 
 🛠️ Built With
 
